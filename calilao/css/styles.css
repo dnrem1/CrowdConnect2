@@ -1,0 +1,9 @@
+        section.bg-primary {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
