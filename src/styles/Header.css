@@ -1,0 +1,101 @@
+
+.header-text{
+    text-align: center;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight:400;
+    font-style: normal;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(255, 38, 0, 0.315);
+    color: rgba(255, 255, 255, 0.65);
+
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.home-img,
+.group-img,
+.gear-img{
+    padding-left: 18px;
+    width: 35px;
+    
+}
+
+.buttons-position{
+    display: flex;
+    flex-direction: row;
+}
+.label-style{
+    display: none;
+}
+
+
+
+
+.home-img:hover{
+    
+    animation: animatedTest 1s ease infinite alternate-reverse;
+}
+
+.group-img:hover{
+    animation: animatedGroup 1.5s ease infinite alternate-reverse;
+}
+
+
+.gear-img:hover{
+    animation: animatedRotate 2s ease-in-out infinite alternate-reverse;
+}
+.button-1{
+
+}
+.button-2{
+    
+}
+
+.div-dashboard{
+    width: 70px;
+    border-color: rgba(245, 112, 10, 0.738);
+    border-width: 1.5px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .label-style {
+        display: block;
+        flex: 1;
+        color: white;
+        padding-left: 10px;
+        text-align:start;
+        margin: auto;
+    }
+    .div-dashboard{
+        width: 200px;
+    }
+    .header-text{
+        font-size: 30px;
+    }
+}
+@keyframes animatedTest {
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(-30deg);}
+    100%{transform: rotate(30deg);}
+}
+@keyframes animatedGroup{
+    from{transform: rotateX(0deg);}
+    to{transform: rotateY(360deg);}
+}
+
+@keyframes animatedRotate {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

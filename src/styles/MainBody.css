@@ -1,0 +1,153 @@
+.container-feed{
+    flex: 1;
+ 
+}
+
+.main-window{
+    display: flex;
+    flex-direction: row ;
+    border-color: red;
+    border-radius: 2px;
+    border-style: solid;
+
+}
+.feed-window{
+    display: flex;
+    flex-direction: column;
+    border-color: blue;
+    border-radius: 2px;
+    border-style: solid;
+    flex: 3;
+
+}
+.user-suggestion-window{
+    border-color: green;
+    border-radius: 2px;
+    border-style: solid;
+    flex: 1;
+    height: 1000px;
+
+}
+.beta-design{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    min-height: 500px;
+    max-height: 800px;
+    height: 800px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px 100px 10px 100px;
+}
+
+.feed-first-layer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.first-layer--img{
+    width: 50px;
+    border-color: red;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.first-layer--username{
+    display: block;
+    flex: 1;
+    color: white;
+    padding-left: 10px;
+    text-align:start;
+    margin: auto;
+
+}
+
+.feed-second-layer{
+    display: flex;
+    flex-direction: row;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+    height: 80%;
+    
+}
+.second-layer--img{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+}
+
+.feed-third-layer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.third-layer--text{
+    padding-left: 10px;
+    margin: 10px 10px;
+}   
+
+.post-area{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px 100px 10px 100px;
+    
+}
+.first-layer-post{
+    display: flex;
+    
+}
+.first-layer-post--img{
+    width: 50px;
+    border-color: red;
+    border-radius: 3rem;
+    border-style: solid;
+    border-width: 1px;
+}
+.first-layer-post--text{
+    flex: 1;
+    background-color: rgba(241, 146, 82);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    box-shadow: none;
+    outline: none;
+    border-style: none;
+    padding-left: 20px;
+}
+
+.second-layer-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.second-layer-post--button{
+    margin-right: 20px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(209, 99, 26, 0.816);
+
+}

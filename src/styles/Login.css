@@ -1,0 +1,41 @@
+.login-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-side{
+    flex: 1;
+    background-color: black;
+    
+}
+.right-side{
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
+}
+
+.login-text{
+    font-size: 1.5rem;
+
+}
+
+.login-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+  }
+  
+  .block {
+    display: block;
+  }

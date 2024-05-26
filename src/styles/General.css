@@ -1,0 +1,18 @@
+@media only screen and (max-width: 30vw) {
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(235, 100, 10, 0.707);
+}
+body{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
